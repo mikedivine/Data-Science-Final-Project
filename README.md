@@ -1,4 +1,6 @@
-# Data-Science-Final-Project
+# Data Science Final Project
+## Prediciting Home Values
+by Kenneth Ao, Russell Frost, and Mike Divine
 
 ## Introduction
 
