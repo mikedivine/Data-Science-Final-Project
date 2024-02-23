@@ -2,6 +2,8 @@
 ## Prediciting Home Values
 by Kenneth Ao, Russell Frost, and Mike Divine
 
+![Home Prices](https://assets.site-static.com/userFiles/717/image/factors-impacting-property-value.jpg)
+
 ## Introduction
 
 The goal of this data science project is to develop a machine learning model capable of predicting home prices based on many different factors including things such as location, square footage, and the number of bedrooms and bathrooms. Predicting home prices accurately is important for buyers and sellers in the real estate market. Buyers need to know if a property is priced reasonably, while sellers aim to maximize their profit without overpricing their home.
