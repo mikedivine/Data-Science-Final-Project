@@ -28,9 +28,7 @@ What answer was found to the research question; what did the study find? Was the
 What might the answer imply and why does it matter? How does it fit in with what other researchers have found? What are the perspectives for future research? Survey about the tools investigated for this assignment.
 
 
-Summary
+## Summary
 
 Most important findings.
-
-10
 
