@@ -20,7 +20,7 @@ The dataset we obtained via the MLS(multiple listing service) offers comprehensi
 
 ## Methods
 
-## Tools: ##
+## Tools ##
 
 - Numpy, Pandas, Matplotlib, and Seaborn for data analysis and visualization
 - Scikit-learn for inference
@@ -28,7 +28,7 @@ The dataset we obtained via the MLS(multiple listing service) offers comprehensi
 - Google Colab for Collaboration and Version Control
 - Inference methods used with Scikit:
 
-## Models: ##
+## Models ##
 
 Many models were used to test the accuracy of the machine learning algorithms.  The first model used was Linear Regression.  The predictors for this model were: bedrooms, sqft, fbathrooms, pbathrooms, and ybd.  Along with the model vizualization were used to understand the results better.  Next a Decision Tree Regressor was used on predictors bedrooms, fbathrooms, pbathrooms.  This provided us with a representation of how tree was making decisions based on these predictors.  The K Neighbors Regressor was used to determine the value for k that would yield the best results.  Forward Selection, in conjunction with Linear Regression, was also used to determine what predictors had the most effect on the machine learning model and would yield the best predictors to use for the most accurate predictions.
 
