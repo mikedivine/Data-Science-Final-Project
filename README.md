@@ -11,14 +11,22 @@ By utilizing historical housing market data, including factors like location, pr
 
 ## Selection of Data
 
-What is the source of the dataset? Characteristics of data?
+[Placer County CA Residential Sales 2023](https://docs.google.com/document/d/1z7PQ3lbd_7D71Og2D5pcniy1VDgdrkDni0lkBgZGPaE/edit)
 
-Any munging or feature engineering?
+The dataset we obtained via the MLS(multiple listing service) offers comprehensive information on residential sales within Placer County, California, throughout the year 2023. It includes many variables, ranging from characteristics like neighborhood, lot size, and square footage to the number of bedrooms and bathrooms. This dataset will serve as the building block for the development of a predictive model to forecast residential property prices.
 
 
 ## Methods
 
-What materials/APIs/tools were used or who was included in answering the research question?
+## Tools: ##
+
+- Numpy, Pandas, Matplotlib, and Seaborn for data analysis and visualization
+- Scikit-learn for inference
+- Github for Version Control
+- Google Colab for Collaboration and Version Control
+- Inference methods used with Scikit:
+
+## Models: ##
 
 
 ## Results
