@@ -4,8 +4,9 @@ by Kenneth Ao, Russell Frost, and Mike Divine
 
 ## Introduction
 
-Why was the project undertaken?
-What was the research question, the tested hypothesis or the purpose of the research?
+The goal of this data science project is to develop a machine learning model capable of predicting home prices based on many different factors including things such as location, square footage, and the number of bedrooms and bathrooms. Predicting home prices accurately is important for buyers and sellers in the real estate market. Buyers need to know if a property is priced reasonably, while sellers aim to maximize their profit without overpricing their home.
+
+By utilizing historical housing market data, including factors like location, property features, and previous sales prices, we will attempt to create a predictive model that provides accurate estimates of home prices. This model could assist real estate agents, buyers, and sellers in helping to make informed decisions.
 
 
 ## Selection of Data
