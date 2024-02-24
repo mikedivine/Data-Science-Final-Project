@@ -34,12 +34,12 @@ Many models were used to test the accuracy of the machine learning algorithms.  
 
 ## Results
 
-What answer was found to the research question; what did the study find? Was the tested hypothesis true? Any visualizations?
+We did get a predictive model that got with an RMSE of $192,000 which showed we could predict prices but not near as accurate as we would like.  We feel with more data and different predictive methods we could continue to work to get closer and closer.  We had many different visualizations such as showing our predicted prices vs the Actual Prices as well as number of bedrooms vs price, number of acres vs price and a few others.  We also showed that the Listing price was very closely linked to the closing price, so this could mean the Real Estate agents have a real good handle in their market and know what a particular house should go for or it could mean them setting the lsiting value could actually affect the selling price.
 
 
 ## Discussion
 
-What might the answer imply and why does it matter? How does it fit in with what other researchers have found? What are the perspectives for future research? Survey about the tools investigated for this assignment.
+The results showed that we have started to narrow in on the 
 
 
 ## Summary
