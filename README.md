@@ -19,14 +19,13 @@ The dataset we obtained via the MLS(multiple listing service) offers comprehensi
 
 
 ## Methods
+  ### Tools ###
 
-## Tools ##
-
-- Numpy, Pandas, Matplotlib, and Seaborn for data analysis and visualization
-- Scikit-learn for inference
-- Github for Version Control
-- Google Colab for Collaboration and Version Control
-- Inference methods used with Scikit:
+  - Numpy, Pandas, Matplotlib, and Seaborn for data analysis and visualization
+  - Scikit-learn for inference
+  - Github for Version Control
+  - Google Colab for Collaboration and Version Control
+  - Inference methods used with Scikit:
 
 ## Models ##
 
