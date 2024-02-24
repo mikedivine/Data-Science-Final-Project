@@ -62,5 +62,7 @@ When the changing value of k resulted in varying RMSE scores from a max of 32470
 
 ## Summary
 
-We found that
+Our predictive model achieved an RMSE of $192,000, showing its potential for predicting home prices, although not as accurately as we desired. Despite this, the results are a promising starting point for further refinement. By leveraging larger datasets and exploring alternative predictive methods, we think we could improve the accuracy of our predictions.
+
+Throughout our analysis, we used many visualizations to understand the relationships between features and home prices. Notably, we observed a strong correlation between listing and closing prices, possibly indicating the influence of real estate agents on market prices. This finding underscores the need for further exploration into pricing decisions and their impact on the real estate market.  Also Square footage, lot size, number of bedrooms and bathrooms, as well as year built seemed to be the most influencial in prediciting home prices.
 
