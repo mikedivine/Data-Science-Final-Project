@@ -36,6 +36,8 @@ Many models were used to test the accuracy of the machine learning algorithms.  
 
 We created a predictive model that got with an RMSE of $192,000 which showed we could predict prices but not near as accurate as we would like.  We feel with more data and different predictive methods we could continue to work to get closer and closer.  We had many different visualizations such as showing our predicted prices vs the Actual Prices as well as number of bedrooms vs price, number of acres vs price and a few others.  We also showed that the Listing price was very closely linked to the closing price, so this could mean the Real Estate agents have a real good handle in their market and know what a particular house should go for or it could mean them setting the lsiting value could actually affect the selling price.
 
+![Predicted vs Actual](hpva.png)
+
 ## Discussion
 
 We started with a preliminary Linear Regression model to gain an understanding of how a machine learning algorithm would respond to the data.  The predictors used in this first preliminary model were: bedrooms,sqft,fbathrooms,pbathrooms,ybd.  The RMSE was 192402.22.  This gave us a good starting place to explore other models and predictors.  A Decision Tree Regressor model was used next on predictors: bedrooms, fbathrooms, pbathrooms, with a max depth of 3.  This resulted in a much higher RMSE of 253785.25.  Next a K Nearest Neighbor Regression model was used, using the same predictors as before, with k values ranging from 1-29.  The results from this model are listed below.
