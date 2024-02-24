@@ -30,11 +30,11 @@ The dataset we obtained via the MLS(multiple listing service) offers comprehensi
 
 ## Models ##
 
-Many models were used to test the accuracy of the machine learning algorithms.  The first model used was Linear Regression.  The predictors for this model were: bedrooms, sqft, fbathrooms, pbathrooms, and ybd.  Along with the model vizualization were used to understand the results better.  Next a Decision Tree Regressor was used on predictors bedrooms, fbathrooms, pbathrooms.  This provided us with a representation of how tree was making decisions based on these predictors.  The K Neighbors Regressor was used to determine the value for k that would yield the best results.  Forward Selection, in conjunction with Linear Regression, was also used to determine what predictors had the most effect on the machine learning model and would yield the best predictors to use for the most accurate predictions.
+Many models were used to test the accuracy of the machine learning algorithms.  The first model used was Linear Regression.  The predictors for this model were: bedrooms, sqft, fbathrooms, pbathrooms, and ybd.  Along with the model vizualization were used to understand the results better.  Next a Decision Tree Regressor was used on predictors bedrooms, fbathrooms, pbathrooms.  This provided us with a representation of how tree was making decisions based on these predictors.  The K Neighbors Regressor was used to determine the value for k that would yield the best results.  PolynomialFeatures was used to provide a sense of how our hypothesized predictors would interact with each other. Forward Selection, in conjunction with Linear Regression, was also used to determine which predictors had the greatest effect on the machine learning model, and would yield the best predictors to use for the most accurate predictions.
 
 ## Results
 
-We created a predictive model that got with an RMSE of $192,000 which showed we could predict prices but not near as accurate as we would like.  We feel with more data and different predictive methods we could continue to work to get closer and closer.  We had many different visualizations such as showing our predicted prices vs the Actual Prices as well as number of bedrooms vs price, number of acres vs price and a few others.  We also showed that the Listing price was very closely linked to the closing price, so this could mean the Real Estate agents have a real good handle in their market and know what a particular house should go for or it could mean them setting the lsiting value could actually affect the selling price.
+We created a predictive model that got with an RMSE of $192,000 which showed we could predict prices but not near as accurate as we would like.  We feel with more data and different predictive methods we could continue to work to get closer and closer.  We had many different visualizations such as showing our predicted prices vs the Actual Prices as well as number of bedrooms vs price, number of acres vs price and a few others.  We also showed that the Listing price was very closely linked to the closing price, so this could mean the Real Estate agents have a real good handle in their market and know what a particular house should go for or it could mean them setting the listing value could actually affect the selling price. 
 
 ![Predicted vs Actual](hpva.png)
 
@@ -59,6 +59,8 @@ Test RMSE when k = 27: 241910.87
 Test RMSE when k = 29: 239895.91
 
 When the changing value of k resulted in varying RMSE scores from a max of 324702.53 at k=1 to a min of 240191.42 at k=25.  We felt that k=25 would be overfitting the model so the results from the KNN model made it difficult to verify what the best value for k would be to have the most accurate KNN model.
+
+Polynomial features showed that our starting predictors may not have been the best to use since the error rates did not have a strong positive correlation. From using forward selection, that the property attributes that affect the closing price the most were sqft, lsacres, fireplaces, bedrooms, and bathrooms, which was similar to our hypothesized list. Those five predictors were able to produce lower RMSE's than our previous models by going through each to choose the lowest errors. Future research into the topic of housing prices should focus more on those in order to provide better estimates.
 
 ## Summary
 
